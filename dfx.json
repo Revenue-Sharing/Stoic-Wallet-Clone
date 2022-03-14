@@ -1,0 +1,28 @@
+{
+  "canisters": {
+    "video_wallet_assets": {
+      "frontend": {
+        "entrypoint": "src/video_wallet_assets/src/index.html"
+      },
+      "source": [
+        "src/video_wallet_assets/assets",
+        "dist/video_wallet_assets/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1,
+  "dfx": "0.8.1"
+}
